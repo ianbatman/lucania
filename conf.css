@@ -1,0 +1,181 @@
+*{
+    align-content: center;
+}
+.h2{
+    font-size: 1vw;
+    text-decoration: none;
+    font-family: 'Shippori Antique', sans-serif;
+}
+div.rodape{
+    text-align: center;
+    border-top: 0.5vw solid #ffffffaf;
+}
+h1.h2{
+    -webkit-text-stroke: 0.05vw #6C301E;
+    color: #E2C675;
+    font-family: 'Shippori Antique', sans-serif;
+}
+a.setinha{
+    text-align: center;
+}
+p.h2{
+    color: #ffffffaf;
+    font-family: 'Shippori Antique', sans-serif;
+}
+img.setinha{
+    height: 10vw;
+    position: relative;
+}
+img.logo{
+    width:12vw;
+    margin: 0vw 2vw;
+    }
+nav.navbar{
+    background: rgba(0, 0, 0, 0.713);
+    border-bottom: 0.5vw solid #ffffffaf;
+}
+.nav-link, .navbar-nav, .nav-item{
+    font-family: 'Shippori Antique', sans-serif;
+}
+div.center{
+    text-align: center;
+}
+div.index{
+    text-align: center;
+    width: 90%;
+    height: auto;
+    display: flex;
+    
+}
+div.card img{
+    width: 10vw;
+}
+div.personagens{
+    height: auto;
+    width: 100%;
+    padding-top: 3vw;
+    background:url(fundo.png);
+    background-size: 100%;
+    background-position: center;
+    border-top: 0.5vw solid #ffffffaf;
+}
+div.card{
+    background: #ffffffaf;
+    width: 17rem;
+    margin: 1.3vw 1.3vw;
+    text-align: center;
+    display: inline-block;
+    border-radius: 1.5vw;
+}
+a.btn{
+    background: rgba(0, 0, 0, 0.445);
+    border: 0px;
+    font-family: 'Shippori Antique', sans-serif;
+}
+div.poster{
+    margin-top: 1vw;
+    flex: 50%;
+}
+img.poster{
+    border: solid 0.7vw #ffffffaf;
+    height: 30vw;
+    
+}
+h1, p , a, li, h5{
+    font-family: 'Shippori Antique', sans-serif;
+}
+p.sinopse{
+ font-size: 1.5vw;  
+ text-align: left;
+ padding: 0.4vw 1vw; 
+}
+h1.h1{
+    text-align: center;
+    font-size: 6vw;
+    color: #E2C675;
+    -webkit-text-stroke: 0.05vw #6C301E;
+}
+div.sinopse{
+    background: rgba(0, 0, 0, 0.445);
+    flex: 50%;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border-radius: 2vw;
+    margin-top: 1.2vw;
+    margin-left: 10vw;
+    padding: 1vw 2vw;
+    color: #ffffffaf;
+}
+body{
+    background: linear-gradient(to right, #0d002e, #6b19a6);
+}
+
+@media only screen and (max-device-width:900px){
+    img.logo{
+        width: 20vw;
+    }
+    img.poster{
+        height: 48vw;
+        margin: 1.35vw 1.3vw;
+    }
+    h1.h1{
+        font-size: 6vw;
+    }
+    .h2{
+        font-size: 2vw;
+    }
+    p.sinopse{
+        font-size: 2vw;
+    }
+    div.sinopse{
+        margin-top: 5vw;
+    }
+    div.card img{
+        width: 15vw;
+    }
+    img.setinha{
+        height: 15vw;
+    }
+}
+@media only screen and (max-device-width:600px){
+    img.logo{
+        width: 30vw;
+    }
+    div.poster{
+        margin: 2vw;
+        text-align: center;
+        margin-left: 10vw;
+    }
+    img.poster{
+        height: 50vw;
+        margin: 0px;
+    }
+    h1.h1{
+        font-size: 6vw;
+        padding-top: 2vw;
+        -webkit-text-stroke: solid 1vw #6C301E;
+    }
+    .h2{
+        font-size: 3vw;
+        padding-top: 2vw;
+    }
+    p.sinopse{
+        font-size: 4vw
+    }
+    div.index{
+        flex-direction: column;
+        text-align: center;
+    }
+    div.sinopse{
+        margin-top: 8vw;   
+        margin-left: 10vw;
+    }
+    div.card img{
+        width: 15vw;
+    }
+    img.setinha{
+        height: 20vw;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');

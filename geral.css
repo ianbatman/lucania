@@ -1,0 +1,239 @@
+*{
+    align-content: center;
+}
+h1.h2{
+    font-size: 2vw;
+    padding-top: 0.3vw;
+    -webkit-text-stroke: 0.05vw #6C301E;
+    color: #E2C675;
+}
+div.background{
+    height: auto;
+    width: 100%;
+    padding-top: 3vw;
+    background:url(fundo.png);
+    background-size: 100%;
+    background-position: center;
+}
+p.h2{
+    font-size: 2vw;
+    text-decoration: none;
+    color: white;
+    font-family: 'Shippori Antique', sans-serif;
+}
+div.rodape{
+    text-align: center;
+    border-top: 0.5vw solid #ffffffaf;
+    height: fit-content;
+    font-family: 'Shippori Antique', sans-serif;
+}
+a.btn{
+    background: rgba(0, 0, 0, 0.445);
+    border: 0px;
+    font-size: 1.25vw;
+    padding: 0.3vw 0.3vw;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+img.logo{
+    width:12vw;
+    margin: 0px 1.5vw;
+    }
+nav.navbar{
+    background: rgba(0, 0, 0, 0.713);
+    border-bottom: 0.5vw solid #ffffffaf;
+}
+.nav-link, .navbar-nav, .nav-item{
+    font-family: 'Shippori Antique', sans-serif;
+}
+.navbar-dark{
+text-align: right;
+}
+div.center{
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1vw;
+    margin-top: 15vw;
+    margin: 1vw 3vw;
+}
+div.content-texto{
+    position: absolute;
+    text-align: left;
+    color: white;
+    width: fit-content;
+    margin: 3vw 10vw;
+    padding: 2vw 2vw;
+    background: rgba(0, 0, 0, 0.713);
+    border-radius: 1vw;
+    font-family: 'Shippori Antique', sans-serif;
+}
+div.middle{
+    display: inline-flex;
+}
+div.content-textob{
+    position: absolute;
+    text-align: left;
+    color: white;
+    width: 35vw;
+    height: fit-content;
+    margin: 1vw 4vw;
+    padding: 1vw 3vw;
+    background: rgba(0, 0, 0, 0.713);
+    border-radius: 1vw;
+}
+div.center a{
+color: black;
+background: #ffffffaf;
+}
+div.bio, div.bio-b{
+    width: 95%;
+    padding: 1vw vw;
+    font-size: 2vw;
+    color: black;
+    margin: 0.5vw 2vw;
+    font-family: 'Shippori Antique', sans-serif;
+}
+div.bio-b{
+    display: inline-flex;
+}
+p.bio{
+    background: #ffffffaf;
+    border-radius:  1vw;
+    padding: 1vw 1vw;
+    margin: 1vw 1vw;
+}
+img.bio, div.img{
+    height: 50vw;
+    border-radius:  1vw;
+    margin: 1vw;
+    padding: 1vw 1vw;
+}
+img.bio{
+    background: #ffffffaf;
+}
+img.bio-b{
+    height: 50vw;
+    border-radius:  1vw;
+    margin: 1vw 5vw;
+    background: #ffffffaf;
+    padding: 1vw 1vw;
+}
+iframe.bio-b{
+    width: 90vw;
+    height: 50vw;
+    border-radius:  1vw;
+    background: #ffffffaf;
+    padding: 1vw 1vw;
+    margin: 1vw 2vw;
+}
+img.fundo{
+   width: 80vw; 
+   border-radius: 1vw;
+   border: #ffffffaf 0.4vw solid;
+}
+div.box{
+flex: 50%;
+margin: 1vw 1vw;
+}
+img.fundo2{
+    width: 45vw;
+    border-radius: 1vw;
+    border: #ffffffaf 0.4vw solid;
+}
+h1.h1{
+    text-align: center;
+    font-size: 5vw;
+    color: #E2C675;
+    -webkit-text-stroke: 0.05vw #6C301E;
+    font-family: 'Shippori Antique', sans-serif;
+}
+body{
+    background: linear-gradient(to right, #0d002e, #6b19a6);
+}
+
+@media only screen and (max-device-width:900px){
+    img.logo{
+        width: 20vw;
+    }
+    h1.h1{
+        font-size: 6vw;
+    }
+    h1.h2{
+        font-size: 2.45vw;
+    }
+    p.h2{
+        font-size: 3vw;
+    }
+    div.center{
+        font-size: 1.5vw;
+    }
+    a.btn{
+        font-size: 2vw;
+    }
+}
+@media only screen and (max-device-width:600px){
+    img.logo{
+        width: 30vw;
+    }
+    h1.h1{
+        font-size: 5vw;
+        padding-top: 0.3vw;
+    }
+    p.h2{
+        font-size: 5vw;
+        padding-top: 0.3vw;
+    }
+    h1.h2{
+        font-size: 3vw;
+        padding-top: 0.3vw;
+    }
+    div.center{
+        margin: 8vw 10vw;
+    }
+    a.btn{
+        font-size: 3vw;
+        height: auto;
+    }
+    div.content-textob, div.content-texto{
+        width: 50vw; 
+        margin: 3vw 4vw;
+        padding: 2vw 2vw;
+
+    }
+    div.middle{
+        display: block;
+    }
+    img.fundo2{
+        width: 80vw; 
+        border-radius: 1vw;
+        border: #ffffffaf 0.4vw solid;
+     } 
+     div.bio-b{
+         display: block;
+         text-align: center;
+     }
+     p.bio{
+        text-align: left;
+        font-size: 4vw;
+     }  
+     div.img{
+        height: 82vw;
+        display: block;
+        }
+    img.bio-b{
+        height: 52vw;
+    }
+    iframe.bio-b{
+        height: 52vw;
+        width: 92vw;
+    }
+    img.bio{
+        height: 80vw;
+        text-align: center;
+        margin-left: 22vw;
+    }
+    p.card-text{
+        font-size: 2vw;
+    }
+}
