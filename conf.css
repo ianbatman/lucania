@@ -108,7 +108,7 @@ div.sinopse{
     color: #ffffffaf;
 }
 body{
-    background: #4d4d4d;
+   background: linear-gradient(to right, #13072b, #6b19a6);
 }
 
 @media only screen and (max-device-width:900px){
